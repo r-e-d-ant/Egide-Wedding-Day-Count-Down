@@ -8,7 +8,7 @@ const minLeft = document.querySelector('.min');
 const secLeft = document.querySelector('.sec');
 
 const countDown = () => {
-    const countDate = new Date('Oct 02, 2021 00:00:00').getTime();
+    const countDate = new Date('Oct 27, 2023 00:00:00').getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
     if(countDate > now){
